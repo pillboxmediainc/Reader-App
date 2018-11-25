@@ -6,13 +6,12 @@
   </head>
   <body>
     <div id="app" align="center">
+      <br>
       <h3>You're text will display here:</h3>
-      <div id="read-view"></div>
+      <div id="read-view">&nbsp;</div>
       <div>
         <h4>Paste the text you want displayed below:</h4>
-        <textarea id="text-input" name="text" rows="14" cols="10" wrap="soft">
-This app is designed to help people read faster and easier. Just paste your text here and see how fast you can read!
-        </textarea>
+        <textarea id="text-input" name="text" rows="14" cols="10" wrap="soft">This app is designed to help people read faster and easier. Just paste your text here and see how fast you can read!</textarea>
       </div>
       <table>
         <tr>
@@ -20,8 +19,8 @@ This app is designed to help people read faster and easier. Just paste your text
           <td>Run:</td>
         </tr>
         <tr>
-          <td><input type="number" value="200" /></td>
-          <td><button class="button">Read It</button></td>
+          <td><input id="text-speed" type="number" value="125"/></input></td>
+          <td><button id="button">Read It</button></td>
         </tr>
       </table>
     </div>
